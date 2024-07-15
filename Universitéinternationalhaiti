@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2em 0;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .hobbies, .projects {
+            margin: 2em 0;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 0.5em;
+            border-radius: 5px;
+        }
+        .links a {
+            color: #333;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 0.5em 0;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page personnelle</h1>
+    </header>
+    <div class="container">
+        <section class="hobbies">
+            <h2>Mes Hobbies</h2>
+            <ul>
+                <li><strong>Danse :</strong> Je pratique la danse régulièrement et j'adore découvrir de nouveaux styles.</li>
+                <li><strong>Lecture :</strong> La lecture est une de mes passions, je lis des romans, des essais, et des articles variés.</li>
+                <li><strong>Voyages :</strong> Voyager me permet de découvrir de nouvelles cultures et d'enrichir mes expériences personnelles.</li>
+            </ul>
+        </section>
+        
+        <section class="projects">
+            <h2>Voyages et Études</h2>
+            <h3>Voyager sans visa ou avec e-visa pour les Haïtiens</h3>
+            <p>Les Haïtiens peuvent voyager dans plusieurs pays sans visa ou avec un e-visa. Voici quelques exemples :</p>
+            <ul>
+                <li><strong>Sans visa :</strong> Équateur, Corée du Sud, Philippines</li>
+                <li><strong>Avec e-visa :</strong> Turquie, Inde, Kenya</li>
+            </ul>
+            <h3>Étudier gratuitement sans mérite</h3>
+            <p>Il existe des universités où l'on peut étudier gratuitement sans avoir besoin de mérite particulier :</p>
+            <ul>
+                <li><strong>Allemagne :</strong> Plusieurs universités publiques offrent des programmes gratuits pour les étudiants internationaux.</li>
+                <li><strong>Norvège :</strong> Les universités publiques ne facturent pas de frais de scolarité, peu importe la nationalité de l'étudiant.</li>
+            </ul>
+        </section>
+        
+        <section class="gallery">
+            <h2>Galerie de Photos</h2>
+            <img src="voyage1.jpg" alt="Photo de voyage 1">
+            <img src="voyage2.jpg" alt="Photo de voyage 2">
+            <img src="voyage3.jpg" alt="Photo de voyage 3">
+        </section>
+        
+        <section class="links">
+            <h2>Liens Utiles</h2>
+            <a href="https://www.visa.com" target="_blank">Informations sur les visas</a>
+            <a href="https://www.daad.de/en/" target="_blank">Étudier en Allemagne</a>
+            <a href="https://www.studyinnorway.no/" target="_blank">Étudier en Norvège</a>
+        </section>
+    </div>
+</body>
+</html>
